@@ -14,3 +14,17 @@
     background-color: #18191b;
     filter: invert(49%) sepia(8%) saturate(300%) hue-rotate(170deg) brightness(125%);
 }
+
+
+.blue-hover:hover {
+    filter: invert(49%) sepia(99%) saturate(3000%) hue-rotate(180deg) brightness(100%);
+}
+
+
+.pink-hover:hover {
+    filter: invert(30%) sepia(90%) saturate(3000%) hue-rotate(310deg) brightness(100%);
+}
+
+.green-hover:hover {
+    filter: invert(54%) sepia(97%) saturate(1500%) hue-rotate(120deg) brightness(90%);
+}
