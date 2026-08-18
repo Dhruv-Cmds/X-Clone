@@ -72,7 +72,7 @@
                     <div class="flex justify-start items-center">
 
                         <button
-                            class="bg-white font-semibold border rounded-3xl px-25 py-2.5 text-black hover:bg-[#e7e9ea] hover:cursor-pointer ">Post
+                            class="bg-white font-semibold border rounded-3xl px-23 py-2.5 text-black hover:bg-[#e7e9ea] hover:cursor-pointer ">Post
                         </button>
 
                     </div>
@@ -81,27 +81,79 @@
             </div>
         </div>
 
-        <div class="w-full border-x border-x-[#3e4144]">b</div>
+        <div class="w-full mt-5 border-x border-x-[#3e4144]">
+
+            <div class="sticky flex justify-between top-5 z-50 border">
+
+                <div class="w-1/2 flex justify-center items-center py-4
+                font-bold text-[#71767b] hover:bg-[#16181c] group">
+                    <span
+                        class="relative after:absolute after:left-0 after:right-0 after:-bottom-4 after:h-1 after:bg-transparent group-hover:after:bg-[#1d9bf0]">
+                        For you
+                    </span>
+                </div>
+
+                <div class="w-1/2 flex justify-center items-center py-4
+                font-bold text-[#71767b] hover:bg-[#16181c] group">
+                    <span
+                        class="relative after:absolute after:left-0 after:right-0 after:-bottom-4 after:h-1 after:bg-transparent group-hover:after:bg-[#1d9bf0]">
+                        Following
+                    </span>
+                </div>
+
+                <div class="w-16 flex justify-center items-center
+                text-2xl text-[#71767b] hover:bg-[#16181c]">
+                    <img src="svgs/plus.svg" alt="">
+                </div>
+
+            </div>
+        </div>
 
         <div class="w-full mt-5 ml-10">
 
-            <div class="flex">
+            <div class="flex sticky top-5 z-50">
 
-                <div
-                    class="flex gap-2 items-center text-base border border-[#3e4144] rounded-3xl px-30 py-2 text-[#3e4144] font-semibold">
-                    <img src="svgs/search.svg" alt="">Search
+                <div class="w-80 bg-black flex items-center border border-[#3e4144] 
+                rounded-3xl py-2 cursor-text
+                hover:border-blue-500">
+
+                    <div class="ml-3 mr-3">
+                        <img src="svgs/search.svg" alt="">
+                    </div>
+
+                    <div class="text-[#919598] font-medium flex-1">
+                        <input type="text" placeholder="Search"
+                            class="w-full outline-none border-none focus:outline-none focus:ring-0">
+                    </div>
+
                 </div>
 
             </div>
 
-            <div class="mt-10 w-80 h-90 border rounded-3xl border-[#3e4144] ">
+            <div class="mt-10 w-80 h-90 border rounded-3xl border-[#3e4144] overflow-hidden">
 
-                <h2 class="ml-3 mr-3 font-semibold mt-50 ">Introducing Image 2.0, from Grok</h2>
-                <p class="mt-2 mr-3 ml-3 text-[#6f7479]">Our best image generator ever. Free for a limited time</p>
+                <div class="relative">
+                    <img src="assets/img.png" alt="" class="w-full h-48 object-cover">
+
+                    <div class="absolute inset-x-0 bottom-0 h-24 bg-linear-to-t from-black to-transparent"></div>
+
+                    <div
+                        class="absolute top-4 right-4 w-4 h-4 hover:bg-[#393939a0] hover:duration-200 hover:ease-in hover:rounded-2xl hover:scale-150">
+                        <img src="svgs/cross.svg" alt="">
+                    </div>
+                </div>
+
+                <h2 class="ml-3 mr-3 font-semibold `mt-[-2px]`">
+                    Introducing Image 2.0, from Grok
+                </h2>
+
+                <p class="mt-2 mr-3 ml-3 text-[#6f7479]">
+                    Our best image generator ever. Free for a limited time
+                </p>
 
                 <button
-                    class="mt-5 mx-3 flex gap-2items-center text-base border border-[#3e4144] rounded-3xl px-26 py-2 text-black font-semibold bg-white hover:bg-[#e7e9ea] hover:cursor-pointer">Try
-                    for free
+                    class="mt-5 mx-3 w-[calc(100%-24px)] py-2 text-base border border-[#3e4144] rounded-3xl text-black font-semibold bg-white hover:bg-[#e7e9ea] hover:cursor-pointer">
+                    Try for free
                 </button>
 
             </div>
@@ -110,7 +162,10 @@
 
                 <div class="mt-5 mx-4 flex justify-between items-center">
                     <h1 class="text-xl font-bold">Today's News</h1>
-                    <img src="svgs/cross.svg" alt="">
+                    <div
+                        class="w-4 h-4 hover:bg-[#393939a0] hover:duration-200 hover:ease-in hover:rounded-2xl hover:scale-150">
+                        <img src="svgs/cross.svg" alt="">
+                    </div>
                 </div>
 
                 <div class="mt-7.5 mr-3 ml-3">
@@ -140,7 +195,10 @@
                 <div class="mt-4 mr-3 ml-3">
                     <div class="flex justify-between items-center ">
                         <p class="text-sm text-[#6f7479]">Trending in India</p>
-                        <img src="/svgs/dot.svg" alt="">
+                        <div
+                            class=" flex justify-center items-center w-6 h-6 hover:bg-[#1d9af0] hover:duration-300 hover:ease-in-out hover:rounded-2xl hover:scale-100">
+                            <img src="/svgs/dot.svg" alt="">
+                        </div>
                     </div>
                     <h2 class="font-semibold">TDPL</h2>
                 </div>
@@ -148,7 +206,10 @@
                 <div class="mt-4 mr-3 ml-3">
                     <div class="flex justify-between items-center ">
                         <p class="text-sm text-[#6f7479]">Politics · Trending</p>
-                        <img src="/svgs/dot.svg" alt="">
+                        <div
+                            class=" flex justify-center items-center w-6 h-6 hover:bg-[#1d9af0] hover:duration-300 hover:ease-in-out hover:rounded-2xl hover:scale-100">
+                            <img src="/svgs/dot.svg" alt="">
+                        </div>
                     </div>
                     <h2 class="font-semibold">Smrit</h2>
                 </div>
@@ -156,7 +217,10 @@
                 <div class="mt-4 mr-3 ml-3">
                     <div class="flex justify-between items-center ">
                         <p class="text-sm text-[#6f7479]">Trending in India</p>
-                        <img src="/svgs/dot.svg" alt="">
+                        <div
+                            class=" flex justify-center items-center w-6 h-6 hover:bg-[#1d9af0] hover:duration-300 hover:ease-in-out hover:rounded-2xl hover:scale-100">
+                            <img src="/svgs/dot.svg" alt="">
+                        </div>
                     </div>
                     <h2 class="font-semibold">Behari Lag Engineering IPO</h2>
                 </div>
@@ -164,18 +228,21 @@
                 <div class="mt-4 mr-3 ml-3">
                     <div class="flex justify-between items-center ">
                         <p class="text-sm text-[#6f7479]">Trending in India</p>
-                        <img src="/svgs/dot.svg" alt="">
+                        <div
+                            class=" flex justify-center items-center w-6 h-6 hover:bg-[#1d9af0] hover:duration-300 hover:ease-in-out hover:rounded-2xl hover:scale-100">
+                            <img src="/svgs/dot.svg" alt="">
+                        </div>
                     </div>
                     <h2 class="font-semibold">#SeamXVIIIisBack</h2>
                 </div>
 
-                <p class=" text-[#1d9bf0] ml-3 mr-3 mt-5">Show more</p>
+                <button class=" text-[#1d9bf0] ml-3 mr-3 mt-5">Show more</button>
             </div>
 
-            <div class="mt-10 w-80 h-77 border rounded-3xl border-[#3e4144] ">
+            <div class="mt-10 w-80 h-75 border rounded-3xl border-[#3e4144] ">
 
                 <div class="mt-5 mx-4 flex justify-between items-center">
-                    <h1 class="text-xl font-bold">What's happening</h1>
+                    <h1 class="text-xl font-bold">Who to follow</h1>
                 </div>
 
                 <div class="mt-5 ml-3 mr-3 flex justify-between">
@@ -185,13 +252,16 @@
                         <img class="rounded" src="assets/isro.jpg" alt="">
 
                         <div class="ml-2">
-                            <h2 class="font-semibold">ISRO</h2>
+                            <div class="flex items-center space-x-1">
+                                <h2 class="font-semibold">ISRO</h2>
+                                <img src="svgs/verified.svg" alt="">
+                            </div>
                             <p class="text-sm text-[#6f7479]">@isro</p>
                         </div>
                     </div>
 
                     <button
-                        class="text-base border border-[#3e4144] rounded-3xl px-5 py-1.5 text-black font-semibold bg-white hover:bg-[#e7e9ea] hover:cursor-pointer">Follow
+                        class="text-base border border-[#3e4144] rounded-3xl px-3 py-1 text-black font-semibold bg-white hover:bg-[#e7e9ea] hover:cursor-pointer">Follow
                     </button>
 
                 </div>
@@ -203,13 +273,16 @@
                         <img class="rounded" src="assets/bcci.jpg" alt="">
 
                         <div class="ml-2">
-                            <h2 class="font-semibold">BCCI</h2>
+                            <div class="flex items-center space-x-1">
+                                <h2 class="font-semibold">BCCI</h2>
+                                <img src="svgs/verified.svg" alt="">
+                            </div>
                             <p class="text-sm text-[#6f7479]">@BCCI</p>
                         </div>
                     </div>
 
                     <button
-                        class="text-base border border-[#3e4144] rounded-3xl px-5 py-1.5 text-black font-semibold bg-white hover:bg-[#e7e9ea] hover:cursor-pointer">Follow
+                        class="text-base border border-[#3e4144] rounded-3xl px-3 py-1 text-black font-semibold bg-white hover:bg-[#e7e9ea] hover:cursor-pointer">Follow
                     </button>
 
                 </div>
@@ -220,19 +293,22 @@
 
                         <img class="rounded" src="assets/railminindia.jpg" alt="">
 
-                        <div class="ml-2">
-                            <h2 class="font-semibold">Ministry of Railways</h2>
+                        <div class="ml-2 text-sm">
+                            <div class="flex items-center space-x-1">
+                                <h2 class="font-semibold" style="white-space: nowrap;">Ministry of Railways</h2>
+                                <img src="svgs/verified.svg" alt="">
+                            </div>
                             <p class="text-sm text-[#6f7479]">@RailMinIndia</p>
                         </div>
                     </div>
 
                     <button
-                        class="text-base border border-[#3e4144] rounded-3xl px-5 py-1.5 text-black font-semibold bg-white hover:bg-[#e7e9ea] hover:cursor-pointer">Follow
+                        class="text-base border border-[#3e4144] rounded-3xl px-3 py-1 text-black font-semibold bg-white hover:bg-[#e7e9ea] hover:cursor-pointer">Follow
                     </button>
 
                 </div>
 
-                <p class=" text-[#1d9bf0] ml-3 mr-3 mt-8">Show more</p>
+                <button class=" text-[#1d9bf0] ml-3 mr-3 mt-6">Show more</button>
 
             </div>
 
