@@ -8,11 +8,11 @@
     <link rel="stylesheet" href="./src/output.css">
 </head>
 
-<body class="bg-black text-white">
+<body class="bg-black text-white scroll-smooth">
 
     <div class="flex mx-auto container my-4">
 
-        <div class="w-full mt-5">
+        <div class="w-full">
 
             <div class="flex justify-end ">
 
@@ -81,9 +81,10 @@
             </div>
         </div>
 
-        <div class="w-full mt-5 border-x border-x-[#3e4144]">
+        <div class="w-full border-x border-x-[#3e4144]">
 
-            <div class="sticky flex justify-between top-5 z-50 border">
+            <div
+                class="sticky self-start flex justify-between top-5 z-50 border-b border-b-[#3e4144] border-x border-x-transparent bg-transparent">
 
                 <div class="w-1/2 flex justify-center items-center py-4
                 font-bold text-[#71767b] hover:bg-[#16181c] group">
@@ -107,11 +108,76 @@
                 </div>
 
             </div>
+
+            <div class="border-b border-b-[#3e4144]">
+
+                <div class="ml-3 mr-3 mt-5">
+
+                    <div class="flex items-center space-x-2.5 text-xl text-[#71767b] font-light">
+
+                        <img class="w-11 h-11 rounded-3xl" src="assets/user_profile.png" alt="">
+                        <h1>
+                            What's happening?
+                        </h1>
+
+                    </div>
+
+                    <div class="flex items-center justify-between mt-5 mb-3">
+
+                        <div class="flex ml-13 space-x-3">
+                            
+                            <div class="flex items-center justify-center hover:w-8 hover:h-8 hover:rounded-2xl hover:bg-[#393939a0] hover:duration-300">
+                                <img class="hover:filter-white w-5 h-5 filter-gray" src="svgs/gallery.svg" alt="">
+                            </div>
+
+                            <div class="flex items-center justify-center hover:w-8 hover:h-8 hover:rounded-2xl hover:bg-[#393939a0] hover:duration-300">
+                                <img class="w-5 h-5 filter-gray" src="svgs/gif.svg" alt="">
+                            </div>
+
+                            <div class="flex items-center justify-center hover:w-8 hover:h-8 hover:rounded-2xl hover:bg-[#393939a0] hover:duration-300">
+                                <img class="w-5 h-5 filter-gray" src="svgs/grok.svg" alt="">
+                            </div>
+
+                            <div class="flex items-center justify-center hover:w-8 hover:h-8 hover:rounded-2xl hover:bg-[#393939a0] hover:duration-300">
+                                <img class="w-5 h-5 filter-gray" src="svgs/poll.svg" alt="">
+                            </div>
+
+                            <div class="flex items-center justify-center hover:w-8 hover:h-8 hover:rounded-2xl hover:bg-[#393939a0] hover:duration-300">
+                                <img class="w-5 h-5 filter-gray" src="svgs/emoji.svg" alt="">
+                            </div>
+
+                            <div class="flex items-center justify-center hover:w-8 hover:h-8 hover:rounded-2xl hover:bg-[#393939a0] hover:duration-300">
+                                <img class="w-5 h-5 filter-gray" src="svgs/schedule.svg" alt="">
+                            </div>
+
+                            <div class="flex items-center justify-center hover:w-8 hover:h-8 hover:rounded-2xl hover:bg-[#393939a0] hover:duration-300">
+                                <img class="w-5 h-5 filter-gray" src="svgs/map.svg" alt="">
+                            </div>
+
+                            <div class="flex items-center justify-center hover:w-8 hover:h-8 hover:rounded-2xl hover:bg-[#393939a0] hover:duration-300">
+                                <img class="w-5 h-5 filter-gray" src="svgs/content_disclose.svg" alt="">
+                            </div>
+ 
+                        </div>
+
+                        <button
+                            class="px-4 py-1 text-base border border-[#3e4144] rounded-3xl text-black font-semibold bg-[#393a3a] hover:cursor-pointer">
+                            Post
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="py-4 text-[#1d9bf0] text-center border-b border-b-[#3e4144]">
+                <p>Show 532 posts</p>
+            </div>
+
         </div>
 
-        <div class="w-full mt-5 ml-10">
+        <div class="w-full ml-10">
 
-            <div class="flex sticky top-5 z-50">
+            <div class="flex sticky self-start top-5 z-50 h-fit">
 
                 <div class="w-80 bg-black flex items-center border border-[#3e4144] 
                 rounded-3xl py-2 cursor-text

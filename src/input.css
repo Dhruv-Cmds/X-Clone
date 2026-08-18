@@ -1,1 +1,16 @@
 @import "tailwindcss";
+
+.filter-gray {
+    filter: invert(49%) sepia(8%) saturate(300%) hue-rotate(170deg) brightness(90%);
+}
+
+.filter-gray-hover {
+    filter: invert(49%) sepia(8%) saturate(300%) hue-rotate(170deg) brightness(90%);
+    padding: 6px;
+    border-radius: 9999px;
+}
+
+.filter-gray-hover:hover {
+    background-color: #18191b;
+    filter: invert(49%) sepia(8%) saturate(300%) hue-rotate(170deg) brightness(125%);
+}
