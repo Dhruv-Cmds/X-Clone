@@ -10,15 +10,15 @@
 
 <body class="bg-black text-white scroll-smooth">
 
-    <div class="flex mx-auto container my-4">
+    <div class="page-shell flex mx-auto container my-4 lg:gap-x-10">
 
-        <div class="md:w-1/4 w-20">
+        <div class="sidebar md:w-1/4 w-20">
 
             <div class="flex justify-center">
 
-                <div class="relative flex-col text-xl space-y-5 w-1/2">
+                <div class="sidebar-content relative flex flex-col text-xl space-y-5 w-1/2">
 
-                    <img class="md:ml-3 flex  ml-1" src="/svgs/logo.svg" alt="">
+                    <img class="ml-3" src="/svgs/logo.svg" alt="" style="width: 30px; height: 30px;">
 
                     <ul class="flex flex-col text-xl space-y-2.5">
 
@@ -115,13 +115,13 @@
 
         </div>
 
-        <div class="md:w-5/12 border-x border-x-[#3e4144]">
+        <div class="feed md:w-5/12 min-w-0 border-x border-x-[#3e4144]">
 
             <div class="sticky self-start flex justify-between top-5 z-50
            border-b border-b-[#3e4144] border-x border-x-transparent
            bg-black/50 backdrop-blur-md">
 
-                <div class="w-1/2 flex justify-center items-center py-4
+                <div class="flex-1 flex justify-center items-center py-4
                 font-bold text-[#71767b] group hover:bg-[#16181c]/40">
 
                     <span
@@ -131,7 +131,7 @@
 
                 </div>
 
-                <div class="w-1/2 flex justify-center items-center py-4
+                <div class="flex-1 flex justify-center items-center py-4
                 font-bold text-[#71767b] group hover:bg-[#16181c]/40">
 
                     <span
@@ -164,7 +164,7 @@
 
                     <div class="flex items-center justify-between mt-5 mb-3">
 
-                        <div class="flex ml-13 space-x-5">
+                        <div class="flex flex-1 min-w-0 flex-wrap gap-1 sm:gap-3 ml-0 sm:ml-13">
 
                             <div
                                 class="flex items-center justify-center w-8 h-8 hover:rounded-2xl hover:bg-[#393939a0] hover:duration-300">
@@ -226,13 +226,13 @@
             <!-- 1 -->
             <div class="border-b border-b-[#3e4144]">
 
-                <div class="ml-5 mr-5 mt-3 flex justify-between">
+                <div class="post ml-5 mr-5 mt-3 flex justify-between min-w-0">
 
-                    <div class="flex">
+                    <div class="flex min-w-0">
 
                         <img class="rounded w-10 h-10" src="assets/nasa.jpg" alt="">
 
-                        <div class="flex flex-col">
+                        <div class="post-content flex flex-col min-w-0">
 
                             <div class="flex items-center">
 
@@ -325,13 +325,13 @@
             <!-- 2 -->
             <div class="border-b border-b-[#3e4144]">
 
-                <div class="ml-5 mr-5 mt-3 flex justify-between">
+                <div class="post ml-5 mr-5 mt-3 flex justify-between min-w-0">
 
-                    <div class="flex">
+                    <div class="flex min-w-0">
 
                         <img class="rounded w-10 h-10" src="assets/nasa.jpg" alt="">
 
-                        <div class="flex flex-col">
+                        <div class="post-content flex flex-col min-w-0">
 
                             <div class="flex items-center">
 
@@ -422,13 +422,13 @@
 
             <!-- 3 -->
             <div>
-                <div class="ml-5 mr-5 mt-3 flex justify-between">
+                <div class="post ml-5 mr-5 mt-3 flex justify-between min-w-0">
 
-                    <div class="flex">
+                    <div class="flex min-w-0">
 
                         <img class="rounded w-10 h-10" src="assets/nasa.jpg" alt="">
 
-                        <div class="flex flex-col">
+                        <div class="post-content flex flex-col min-w-0">
 
                             <div class="flex items-center">
 
@@ -518,11 +518,11 @@
 
         </div>
 
-        <div class="w-1/4 md:ml-10 hidden md:block">
+        <div class="right-sidebar w-1/4 md:ml-10 hidden lg:block">
 
             <div class="flex sticky self-start top-5 z-50 h-fit">
 
-                <div class="w-80 bg-black flex items-center border border-[#3e4144] 
+                <div class="w-full bg-black flex items-center border border-[#3e4144]
                 rounded-3xl py-2 cursor-text
                 hover:border-blue-500">
 
@@ -539,7 +539,7 @@
 
             </div>
 
-            <div class="mt-10 w-80 h-90 border rounded-3xl border-[#3e4144] overflow-hidden">
+            <div class="mt-10 w-full h-90 border rounded-3xl border-[#3e4144] overflow-hidden">
 
                 <div class="relative">
                     <img src="assets/img.png" alt="" class="w-full h-48 object-cover">
@@ -568,7 +568,7 @@
 
             </div>
 
-            <div class="mt-10 w-80 h-90 border rounded-3xl border-[#3e4144] ">
+            <div class="mt-10 w-full h-90 border rounded-3xl border-[#3e4144] ">
 
                 <div class="mt-5 mx-4 flex justify-between items-center">
 

@@ -4,6 +4,13 @@ A responsive, dark-mode recreation of the X home timeline, built with semantic H
 
 ## Preview
 
+### Phone view (IPONE 14PRO MAX)
+![X Clone preview](./preview/phone_screen.png)
+
+### Tab view (IPAD MINI)
+![X Clone preview](./preview/ipad_screen.png)
+
+### Monitor view (DEFAULT)
 ![X Clone preview](./preview/large_screen.png)
 
 ## Tech stack
